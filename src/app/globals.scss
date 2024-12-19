@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  position: relative;
+}
+
+a,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+html {
+    background-color: lightgray;
+  font-size: 16px;
+  font-family: "pretendard", "neue-haas-grotesk-display", "Noto Sans TC",
+    sans-serif; //기본영문,한글,한자 순
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
